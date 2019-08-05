@@ -202,7 +202,7 @@ Outputs:
     Description: A reference to the public subnet in the 1st Availability Zone
     Value: !Ref PublicSubnet1
     Export:
-      Name: !Sub ${EnvironmentName}
+      Name: !Sub ${EnvironmentName}-PUB1-SN
   PublicSubnet2: 
     Description: A reference to the public subnet in the 2nd Availability Zone
     Value: !Ref PublicSubnet2
